@@ -14,7 +14,8 @@
     </head>
     <body>
         <h1>Shopping List</h1>
-        <p>Hello, $(username)</p>
+        <p>Hello, ${username}</p>
+   
         <a href="ShoppingList?action=logout">Logout</a>
         
         <form action="" method="POST">
@@ -22,7 +23,7 @@
                 <br>
                 <p>Add item:</p>
                 <input type="text" name="item">
-                <input type="submit" value="item">
+                <input type="submit" value="Add">
                 <input type="hidden" name="action" value="add">
         </form>
         <form action="" method="POST">
